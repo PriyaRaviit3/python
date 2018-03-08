@@ -1,0 +1,51 @@
+list basic  
+
+a=[4,6,7,2,5,6]
+>>> a.sort()
+>>> print(a)
+[2, 4, 5, 6, 6, 7]
+>>> a=[4,6,7,2,5,6]
+>>> a.sort(reverse=True)
+>>> print(a)
+[7, 6, 6, 5, 4, 2]
+>>> a=[4,6,7,2,5,6]
+>>> a.sort(reverse=False)
+>>> print(a)
+[2, 4, 5, 6, 6, 7]
+>>> del(a)
+>>> print(a)
+ a="Migen"
+>>> b="Priya"
+>>> list=["My Little Family",a,b]
+>>> list
+['My Little Family', 'Migen', 'Priya']
+>>> list=["My Little Family Santhosh",a,b]
+>>> list
+['My Little Family Santhosh', 'Migen', 'Priya']
+>>> list[1]
+'Migen'
+>>> list[0]
+'My Little Family Santhosh'
+>>> list[2]
+'Priya'
+>>> list=["hi","this","is","priya","new","to","python"]
+>>> list
+['hi', 'this', 'is', 'priya', 'new', 'to', 'python']
+>>> list[1:3]
+['this', 'is']
+>>> list+list
+['hi', 'this', 'is', 'priya', 'new', 'to', 'python', 'hi', 'this', 'is', 'priya', 'new', 'to', 'python']
+>>> list*5
+['hi', 'this', 'is', 'priya', 'new', 'to', 'python', 'hi', 'this', 'is', 'priya', 'new', 'to', 'python', 'hi', 'this', 'is', 'priya', 'new', 'to', 'python', 'hi', 'this', 'is', 'priya', 'new', 'to', 'python', 'hi', 'this', 'is', 'priya', 'new', 'to', 'python']
+>>> list="migen"
+>>> list*6
+'migenmigenmigenmigenmigenmigen'
+>>> list=" migen "
+>>> list*6
+' migen  migen  migen  migen  migen  migen '
+>>> list.join("hi")
+'h migen i'
+>>> l=[1,2,3,4,5]
+>>> l.append(6)
+>>> l
+[1, 2, 3, 4, 5, 6]
