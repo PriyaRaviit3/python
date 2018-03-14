@@ -20,3 +20,7 @@ from file.f import file1
 r=[file1("priya","migen")]
 for i in r:
     print(i)
+        
+        
+#output
+priya i love migen
