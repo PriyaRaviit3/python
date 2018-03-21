@@ -39,4 +39,9 @@
 >>> x=re.findall(r"^\w+","hi migen.. how are you.. i will be back in afternoon")
 >>> print(x)
 ['hi']
->>> 
+>>> x=re.findall(r"\w\s","The regular expression language is relatively small and restricted")
+>>> print(x)
+['e ', 'r ', 'n ', 'e ', 's ', 'y ', 'l ', 'd ']
+>>> x=re.findall(r"\w\S","The regular expression language is relatively small and restricted")
+>>> print(x)
+['Th', 're', 'gu', 'la', 'ex', 'pr', 'es', 'si', 'on', 'la', 'ng', 'ua', 'ge', 'is', 're', 'la', 'ti', 've', 'ly', 'sm', 'al', 'an', 're', 'st', 'ri', 'ct', 'ed']
