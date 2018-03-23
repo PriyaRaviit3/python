@@ -1,5 +1,5 @@
-http://regexlib.com/CheatSheet.aspx
-text match
+#http://regexlib.com/CheatSheet.aspx
+#text match
 
 
 
