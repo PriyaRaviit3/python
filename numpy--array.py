@@ -46,21 +46,6 @@ array([[0.70069043, 0.79704775, 0.93075044, 0.74139217],
        [0.8171396 , 0.3111746 , 0.52461736, 0.12715384],
        [0.20824779, 0.53120223, 0.79817386, 0.45462913]])
 
-x=np.random.normal(9,3(3,3))
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-15-508d427d66ef> in <module>()
-----> 1 x=np.random.normal(9,3(3,3))
-
-TypeError: 'int' object is not callable
-
-x=np.random.normal(5,3(3,3))
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-16-35a108a1ce15> in <module>()
-----> 1 x=np.random.normal(5,3(3,3))
-
-TypeError: 'int' object is not callable
 
 x=np.random.random((2,3,4))
 
@@ -74,13 +59,6 @@ array([[[0.71630897, 0.09742268, 0.80703373, 0.9332591 ],
         [0.89391105, 0.68283254, 0.5548924 , 0.59071007],
         [0.92523037, 0.36051537, 0.28147302, 0.13126595]]])
 
-x=np.random.normal(5,2(2,2))
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-19-e43b6d6aa830> in <module>()
-----> 1 x=np.random.normal(5,2(2,2))
-
-TypeError: 'int' object is not callable
 
 x=np.random.normal(5,2,(2,2))
 
@@ -99,9 +77,6 @@ x=np.linspace(1,20,3)
 x
 Out[25]: array([ 1. , 10.5, 20. ])
 
-x=np.linspace(1,2,0.5)
-C:\Users\I18N\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: DeprecationWarning: object of type <class 'float'> cannot be safely interpreted as an integer.
-  """Entry point for launching an IPython kernel.
 
 x=np.linspace(1,2,3)
 
