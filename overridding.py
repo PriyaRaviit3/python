@@ -1,3 +1,6 @@
+#though the structure of program looks like overridding,it is not overridding it is evident from their memory location.
+
+
 class student:
 	def display(self,x):
 		self.x=x
