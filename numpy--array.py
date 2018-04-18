@@ -1,12 +1,5 @@
  import numpy as np
 
-x=np.array([[1,2,3]],[4,5,6]])
-  File "<ipython-input-2-0b49232510d7>", line 1
-    x=np.array([[1,2,3]],[4,5,6]])
-                                ^
-SyntaxError: invalid syntax
-
-
 x=np.array([[1,2,3],[4,5,6]])
 
 print(x)
